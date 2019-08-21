@@ -12,7 +12,8 @@ function startMouse(x){
 function stopMouse(x){
   i = 0;
   x.style.filter = "hue-rotate(0deg)";
-  clearInterval(intervalID)
+  clearInterval(intervalID);
+
 
 }
 
