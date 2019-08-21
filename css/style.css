@@ -1,38 +1,41 @@
 body{
-  background-color: #fcfcfc;
+  color: white;
+  background-color: #3c3c3c;
   font-family: Arial, Helvetica, sans-serif;
 }
 .outer-div{
 
   text-align: left;
-  //background-color: blue;
+
 }
 .inner-div{
   display: inline-block;
   padding-top: 300px;
   padding-left: 20%;
-  //padding-right: 20%;
+
   font-size: 3em;
   text-align: center;
-  //background-color: red;
+
   overflow: hidden;
   white-space: nowrap;
 }
 .text{
+  padding-top: 20px;
+  padding-bottom: 33px;
   display: inline-block;
-  padding-left: 27.5%;
   padding-right: 20%;
   font-size: 3em;
   text-align: center;
-  //background-color: red;
+
   overflow: hidden;
   white-space: nowrap;
 }
+
 #logo{
   border-radius: 8px;
   filter: hue-rotate(0deg);
   display: inline-block;
   height: 100px;
   width: 100px;
-  background-color: blue;
+  //background-color: blue;
 }

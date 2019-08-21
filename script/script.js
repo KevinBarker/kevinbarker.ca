@@ -1,23 +1,24 @@
 
 
 
-console.log("Hello World");
-var i = 0;
-function test() {
-  console.log("hello World from function");
-}
+var speedChange = 12; // runs ever x miliseconds, lower is faster.
+// 15 milliseconds is ~60fps
+var changeRate = 10.2; // Hue rotations per speedChange, higher is faster
+var i = 0; // what hue the image starts at
 var intervalID;
 function startMouse(x){
-  intervalID = setInterval(changeColor, 1);
+  intervalID = setInterval(changeColor(x), speedChange);
 }
 function stopMouse(x){
-  clearInterval(intervalID)
+  i = 0;
   x.style.filter = "hue-rotate(0deg)";
+  clearInterval(intervalID)
+
 }
 
 function changeColor(x){
-
-  document.getElementById('logo').style.filter = "hue-rotate("+i+"deg)";
-
- i = i + 1;
+  console.log(x);
+  x.style.filter = "hue-rotate("+i+"deg)";
+  //x.style.filter = "hue-rotate(200deg)";
+  i = i + changeRate;
 }

@@ -11,11 +11,16 @@
   </head>
   <body>
 
-  <div class="outer-div">
+  <div class="outer-div" onmouseout="stopMouse(this)" onmouseover="startMouse(this)" >
 
-    <div class="inner-div" onclick"test()">
+    <div class="inner-div">
 
-      <img id="logo" onmouseout="stopMouse(this)" onmouseover="startMouse(this)" src="./media/logo.png" alt="logo">
+      <img id="logo" src="./media/logo.png" alt="logo">
+
+    </div>
+    <div class="text"  onclick"test()">
+
+
       Kevin Barker
     </div>
   </div>
