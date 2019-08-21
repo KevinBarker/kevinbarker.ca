@@ -23,3 +23,4 @@ function changeColor(x){
   //x.style.filter = "hue-rotate(200deg)";
   i = i + changeRate;
 }
+// testing the commit in ATOM.
