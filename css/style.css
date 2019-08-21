@@ -4,14 +4,13 @@ body{
   font-family: Arial, Helvetica, sans-serif;
 }
 .outer-div{
-
   text-align: left;
-
+  background-color: red;
 }
 .inner-div{
   display: inline-block;
-  padding-top: 300px;
-  padding-left: 20%;
+  margin-top: 300px;
+  margin-left: 20%;
 
   font-size: 3em;
   text-align: center;
@@ -20,8 +19,8 @@ body{
   white-space: nowrap;
 }
 .text{
-  padding-top: 20px;
-  padding-bottom: 33px;
+  margin-top: 20px;
+  margin-bottom: 33px;
   display: inline-block;
   padding-right: 20%;
   font-size: 3em;
@@ -30,7 +29,16 @@ body{
   overflow: hidden;
   white-space: nowrap;
 }
+.testClass{
 
+
+
+  text-align: center;
+
+  overflow: hidden;
+  white-space: nowrap;
+  background-color: blue;
+}
 #logo{
   border-radius: 8px;
   filter: hue-rotate(0deg);
